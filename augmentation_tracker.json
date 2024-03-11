@@ -18,7 +18,6 @@
     "Sidebar",
     "SidebarV2",
     "SettingsSidebar",
-    "Security",
     "Progressbar",
     "TabBtn"
   ],
@@ -63,20 +62,8 @@
     "Settings ": {
       "count": 1,
       "location": "right side of the sidebar and just below the header",
-      "description": "Containing setting sidebar and security",
+      "description": "Containing setting sidebar ",
       "children": {
-        "Security ": {
-          "count": 1,
-          "location": "Inside settings below the header, to the right of the SideBar",
-          "description": "For reseting password",
-          "children": {
-            "PasswordChange ": {
-              "count": 1,
-              "location": "At the top inside security component",
-              "description": "Changes old password to new password"
-            }
-          }
-        },
         "SettingsSidebar": {
           "count": 1,
           "location": "top right of sidebar inside settings component just below the HeaderOne ",
@@ -99,7 +86,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["delete security"]
     }
   }
 }
