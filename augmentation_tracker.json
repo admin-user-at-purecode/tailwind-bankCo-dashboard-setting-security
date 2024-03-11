@@ -17,9 +17,9 @@
     "ResProfilePopup",
     "Sidebar",
     "SidebarV2",
-    "SettingsSidebar",
-    "Progressbar",
-    "TabBtn"
+    "Security",
+    "PasswordChange"
+    
   ],
   "component_information": {
     "HeaderOne": {
@@ -62,22 +62,17 @@
     "Settings ": {
       "count": 1,
       "location": "right side of the sidebar and just below the header",
-      "description": "Containing setting sidebar ",
+      "description": "Containing setting sidebar and security",
       "children": {
-        "SettingsSidebar": {
+        "Security ": {
           "count": 1,
-          "location": "top right of sidebar inside settings component just below the HeaderOne ",
-          "description": "It contains listItem of TabBtn",
+          "location": "Inside settings below the header, to the right of the SideBar",
+          "description": "For reseting password",
           "children": {
-            "TabBtn": {
-              "count": 4,
-              "location": "top right side of the Settings component inside SettingsSidebar",
-              "description": "a type of link"
-            },
-            "Progressbar": {
+            "PasswordChange ": {
               "count": 1,
-              "location": "At the bottom of SettingsSidebar",
-              "description": "it shows the percentage of profile completion"
+              "location": "At the top inside security component",
+              "description": "Change old password to new password"
             }
           }
         }
@@ -86,7 +81,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": ["delete security"]
+      "screen_and_layout_augmentations": ["removed SettingsSidebar from settings"]
     }
   }
 }
