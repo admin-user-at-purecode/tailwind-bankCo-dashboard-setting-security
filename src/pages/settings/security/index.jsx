@@ -1,5 +1,5 @@
 import resetPass from "../../../assets/images/illustration/reset-password.svg";
-import PasswordChange from "../../../component/forms/PasswordChange";
+
 
 function Security() {
   return (
@@ -12,7 +12,7 @@ function Security() {
           <p className="text-sm fotn-medium text-bgray-500 dark:text-bgray-50">
             Change or view your password.
           </p>
-          <PasswordChange />
+         
         </div>
         <div className="mx-auto pt-10 hidden xl:block">
           <img src={resetPass} alt="" />

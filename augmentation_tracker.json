@@ -68,14 +68,7 @@
         "Security ": {
           "count": 1,
           "location": "Inside settings below the header, to the right of the SideBar",
-          "description": "For reseting password",
-          "children": {
-            "PasswordChange ": {
-              "count": 1,
-              "location": "At the top inside security component",
-              "description": "Changes old password to new password"
-            }
-          }
+          "description": "For reseting password"
         },
         "SettingsSidebar": {
           "count": 1,
