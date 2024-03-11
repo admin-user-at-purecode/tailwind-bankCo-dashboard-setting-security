@@ -14,7 +14,7 @@ function Security() {
           </p>
           <PasswordChange />
         </div>
-        <div className="mx-auto pt-10 hidden xl:block">
+        <div className="mx-auto pt-10 hidden xl:block"> 
           <img src={resetPass} alt="" />
         </div>
       </div>

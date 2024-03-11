@@ -86,11 +86,6 @@
               "count": 4,
               "location": "top right side of the Settings component inside SettingsSidebar",
               "description": "a type of link"
-            },
-            "Progressbar": {
-              "count": 1,
-              "location": "At the bottom of SettingsSidebar",
-              "description": "it shows the percentage of profile completion"
             }
           }
         }
@@ -99,7 +94,9 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": [
+        "remove progress bar from SettingsSidebar inside settings"
+      ]
     }
   }
 }

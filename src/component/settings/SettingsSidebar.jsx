@@ -1,4 +1,4 @@
-import Progressbar from "../chart/Progressbar";
+
 import TabBtn from "../button/TabBtn";
 
 function SettingsSidebar() {
@@ -7,7 +7,7 @@ function SettingsSidebar() {
       {/* Sidebar Tabs */}
 
       <div className="px-4 py-6">
-        <TabBtn
+      <TabBtn
           link="#"
           title="Personal Informations"
           text="Est arcu pharetra proin pellentesque"
@@ -171,7 +171,6 @@ function SettingsSidebar() {
       </div>
       {/* Progressbar  */}
       <div className="px-8">
-        <Progressbar className="bg-bgray-200 dark:bg-darkblack-500 p-7 rounded-xl" />
       </div>
     </aside>
   );
