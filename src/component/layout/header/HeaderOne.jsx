@@ -3,7 +3,6 @@ import SearchBar from "../../forms/SearchBar";
 import Author from "./Author";
 import MassagePopup from "./MassagePopup";
 import NotificationPopup from "./NotificationPopup";
-import ProfilePopup from "./ProfilePopup";
 import StorePopUp from "./StorePopUp";
 import ToggleBtn from "./ToggleBtn";
 import ModeToggler from "./ModeToggler";
@@ -147,10 +146,6 @@ function HeaderOne({ handleSidebar }) {
                     </div>
                     {/* notification ,message, store */}
 
-                    <ProfilePopup
-                        active={popup?.profile}
-                        handlePopup={handlePopup}
-                    />
                 </div>
             </div>
         </header>
