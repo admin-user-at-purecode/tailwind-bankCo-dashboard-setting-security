@@ -5,7 +5,6 @@
   },
   "component_names": [
     "HeaderOne",
-    "SearchBar",
     "ModeToggler",
     "ToggleBtn",
     "NotificationPopup",
@@ -26,12 +25,41 @@
     "HeaderOne": {
       "count": 1,
       "location": "to the top of the container",
-      "description": "visible on the large screen",
+      "description": "header for large screen",
       "children": {
-        "SearchBar": {
+        "ModeToggler": {
           "count": 1,
-          "location": "placed centered",
-          "description": "user can enter input"
+          "location": "to the right of the SearchBar",
+          "description": "theme toggle button",
+          "functionality": "toggles the global theme"
+        },
+        "ToggleBtn": {
+          "count": 3,
+          "location": "to the right of the ModeToggler button",
+          "description": "on clicked opens popup",
+          "children": {
+            "NotificationPopup": {
+              "count": 1,
+              "description": "opens on first toggle button clicked"
+            },
+            "MassagePopup": {
+              "count": 1,
+              "description": "opens on second toggle button clicked"
+            },
+            "StorePopUp": {
+              "count": 1,
+              "description": "opens on third toggle button clicked"
+            }
+          }
+        },
+        "Author": {
+          "count": 1,
+          "location": "to the right of the ToggleBtn",
+          "description": "opens the popup containing user basic information"
+        },
+        "ProfilePopup": {
+          "count": 1,
+          "description": "opens a dropdown of some navs"
         }
       },
       "children_orientation_description": "flexed"
@@ -52,12 +80,18 @@
     "Sidebar": {
       "count": 1,
       "location": "to the left of the page, fixed",
-      "description": "collapsible, to the left, on toggled "
+      "description": "collapsible, to the left, on toggled",
+      "children": {
+        "menuItems": {
+          "description": "list of menus in column that contains svg followed by menu in a flexed container"
+        }
+      }
     },
     "SidebarV2": {
       "count": 1,
       "location": "to the left of the page, fixed",
-      "description": "collapsible, to the right, on toggled"
+      "description": "collapsible, to the right, on toggled",
+      "children": "svg of the menus in smaller screen and when toggled"
     },
 
     "Settings ": {
@@ -99,7 +133,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["removed SearchBar from HeaderOne"]
     }
   }
 }

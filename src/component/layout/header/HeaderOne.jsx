@@ -1,5 +1,4 @@
 import { useState } from "react";
-import SearchBar from "../../forms/SearchBar";
 import Author from "./Author";
 import MassagePopup from "./MassagePopup";
 import NotificationPopup from "./NotificationPopup";
@@ -55,7 +54,7 @@ function HeaderOne({ handleSidebar }) {
                         Let’s check your update today
                     </p>
                 </div>
-                <SearchBar />
+        
 
                 <div className="quick-access-wrapper relative">
                     <div className="flex items-center space-x-[43px]">
