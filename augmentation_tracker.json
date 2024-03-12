@@ -16,7 +16,6 @@
     "HeaderTwo",
     "ResProfilePopup",
     "Sidebar",
-    "SidebarV2",
     "SettingsSidebar",
     "Security",
     "Progressbar",
@@ -53,11 +52,6 @@
       "count": 1,
       "location": "to the left of the page, fixed",
       "description": "collapsible, to the left, on toggled "
-    },
-    "SidebarV2": {
-      "count": 1,
-      "location": "to the left of the page, fixed",
-      "description": "collapsible, to the right, on toggled"
     },
 
     "Settings ": {
