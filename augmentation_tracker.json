@@ -134,7 +134,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": ["removed StorePopU from HeaderOne inside ToggleBtn"]
+      "screen_and_layout_augmentations": ["removed StorePopUp from HeaderOne inside ToggleBtn"]
     }
   }
 }
