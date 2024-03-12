@@ -1,6 +1,5 @@
 import { useState } from "react";
 import SearchBar from "../../forms/SearchBar";
-import Author from "./Author";
 import MassagePopup from "./MassagePopup";
 import NotificationPopup from "./NotificationPopup";
 import ProfilePopup from "./ProfilePopup";
@@ -143,7 +142,7 @@ function HeaderOne({ handleSidebar }) {
                         </div>
                         <div className="hidden h-[48px] w-[1px] bg-bgray-300 dark:bg-darkblack-400 xl:block"></div>
                         {/* author */}
-                        <Author showProfile={handlePopup} />
+                       
                     </div>
                     {/* notification ,message, store */}
 
